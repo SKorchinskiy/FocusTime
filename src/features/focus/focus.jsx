@@ -13,7 +13,7 @@ export default function Focus({
         <TextInput
           placeholder="Enter focusing subject name..."
           placeholderTextColor={colors.black}
-          onTextInput={setCurrentSubject}
+          onChangeText={setCurrentSubject}
         />
       </View>
       <RoundedButton
