@@ -14,7 +14,7 @@ export default function RoundedButton({
         btnContainerStyle
       )}
     >
-      <Button title={txtContent} onPress={() => onPressHandler()} />
+      <Button title={txtContent} onPress={onPressHandler} />
     </View>
   );
 }
